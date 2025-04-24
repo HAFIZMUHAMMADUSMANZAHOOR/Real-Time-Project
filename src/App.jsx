@@ -8,6 +8,7 @@ import About from "./Compunent/About";
 import Services from "./Compunent/Services";
 import Blog from "./Compunent/Blog";
 import GetApp from "./Compunent/GetApp";
+import Footer from "./Compunent/Footer";
 
 function App() {
   return (
@@ -19,6 +20,8 @@ function App() {
         <Route path="/services" element={<Services />} />
         <Route path="/blog" element={<Blog />} />
         <Route path="/get-app" element={<GetApp />} />
+        <Route path="/Footer" element={<Footer />} />
+
       </Routes>
     </Router>
   );

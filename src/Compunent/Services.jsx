@@ -23,7 +23,7 @@ const Services = () => {
         <div className="flex justify-center mb-2">
           <img src={icon4} alt="Large icon" className="h-15" />
         </div>
-        <h2 className="text-4xl font-bold mb-2">Our <span className="text-blue-500">Services</span></h2>
+        <h2 className="text-4xl font-bold mb-2">Our <span className="text-purple-500">Services</span></h2>
         <p className="text-gray-600 text-sm max-w-lg mx-auto">
           Lorem ipsum is simply dummy text of the  <br />printing and typesetting industry Lorem ipsum <br />has been the industry's.
         </p>

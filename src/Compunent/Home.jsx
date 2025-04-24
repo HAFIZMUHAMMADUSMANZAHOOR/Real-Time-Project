@@ -4,6 +4,9 @@ import { Autoplay } from 'swiper/modules';
 import img1 from "../assets/Images/chart1.png"
 import img2 from "../assets/Images/chart2.png"
 import img3 from "../assets/Images/chart3.png"
+import img12 from "../assets/Images/chart12.png"
+import img13 from "../assets/Images/chart13.png"
+import img14 from "../assets/Images/chart15.png"
 
 import 'swiper/css';
 import 'swiper/css/autoplay';
@@ -113,7 +116,7 @@ export default function Home() {
       
       </Swiper>
     </div>
-    <div className='h-[600px] w-full bg-gray-200 '>
+    <div className='h-[1400px] w-full bg-gray-200 '>
         <p className=' flex justify-center'>
         <h1 className='text-3xl'>Welcome to Hunt Share Live -  Youre  <br />Ultimate Live Streaming Platform! </h1><br /><br /> </p>
         <h3 className='flex justify-center'>Go Live, Connect, and Earn Through Gifting!</h3>
@@ -121,13 +124,53 @@ export default function Home() {
 
           
         
+          <div className="space-y-20">
+                 {/* Hunt Share Live */}
+                 <div className="flex flex-col md:flex-row items-center md:space-x-8">
+                   <div className="md:w-1/2 mb-6 md:mb-0">
+                     <h3 className="text-purple-800 font-extrabold text-xl mb-4">Hunt Share Live</h3>
+                     <p className="text-gray-700">
+                       Hunt Share Live is an amazing live streaming app where you don't just entertain – you earn too! Whether you're a gamer, an artist, or simply looking to connect with your fans, this platform is made for everyone.
+                     </p>
+                   </div>
+                   <div className="md:w-1/2">
+                     <img src={img12} alt="Hunt Share Live streaming device" />
+                   </div>
+                 </div>
          
+                 {/* Hunt Share Live Gifting */}
+                 <div className="flex flex-col md:flex-row-reverse items-center md:space-x-8 md:space-x-reverse ml-8">
+                   <div className="md:w-1/2 mb-6 md:mb-0">
+                     <h3 className="text-purple-800 font-extrabold text-xl mb-4 ">Hunt Share Live Gifting</h3>
+                     <p className="text-gray-700">
+                       Hunt Share Live offers an engaging gifting system where the better you perform, the more rewards you earn.
+                     </p>
+                   </div>
+                   <div className="md:w-1/2">
+                     <img src={img13} alt="Mobile app for Hunt Share Live Gifting" />
+                   </div>
+                 </div>
+         
+                 {/* Hunt Share Live Chatting */}
+                 <div className="flex flex-col md:flex-row items-center md:space-x-8">
+                   <div className="md:w-1/2 mb-6 md:mb-0 ml-9">
+                     <h3 className="text-purple-800 font-extrabold text-xl mb-4">Hunt Share Live Chatting</h3>
+                     <p className="text-gray-700">
+                       The live chat feature gives you an instant connection with your viewers, making the app even more interactive and engaging.
+                     </p>
+                   </div>
+                   <div className="md:w-1/2">
+                     <img src={img14} alt="Hunt Share Live chatting on mobile" />
+                   </div>
+                 </div>
+               </div>
 
 
 
 
 
     </div>
+    
     
 
 

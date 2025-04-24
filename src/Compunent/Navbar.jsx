@@ -15,6 +15,8 @@ const Navbar = () => {
             GET APP
           </button>
         </NavLink>
+        {/* <NavLink to="/Footer" className="text-purple-600 text-lg hover:underline">Footer</NavLink> */}
+
       </div>
     </nav>
   );
